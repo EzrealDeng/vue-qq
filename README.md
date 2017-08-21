@@ -22,7 +22,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 ## 通过一个gif先感受下目前已完成的效果  
 ![Preview QQ](https://github.com/EzrealDeng/vue-qq/blob/master/src/assets/qq.gif)  
 
-#项目构建基于vue-cli   
+#项目构建基于vue-cli, 目前还没开发完，没完成的大家可以一起搞        
 
 #项目使用的Vue框架: iView和 mint( 由于找不到合适的图标库，看到iView上有很多图表变引入了，顺便使用学习一下iView )   
 
