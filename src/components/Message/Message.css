@@ -1,0 +1,106 @@
+.user-header{
+	width: 80%;
+	border-radius: 50% 50%;
+}
+.user-name{
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 5px;
+}
+.user-message{
+	color: grey;
+	font-size: 14px;
+	margin-top: 5px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.message-item{
+	border-bottom: 1px solid rgba(106, 216, 170, 0.5);
+	padding-top: 10px;
+	position: relative;
+}
+.message-time{
+	position: absolute;
+	text-align: right;
+	right: 5px;
+	top: 10px;
+}
+.qq-msg-tool{
+	display: inline-block;
+	width:0px;
+	overflow: hidden;
+	position: absolute;
+	right:0;
+	height: 100%;
+	top: 0px;
+}
+.qq-msg-tool span{
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+	white-space:nowrap;
+	overflow: hidden;
+	line-height: 60px;
+}
+.qq-msg-tool span.bg-org{
+	background-color: orange;
+	height: 100%;
+	width: 50%;
+}
+.qq-msg-tool span.bg-skyblu{
+	background-color: skyblue;
+	height: 100%;
+	width: 50%;
+	left: 50%;
+}
+.tool-show{
+	animation: tool-show 0.5s;
+	animation-fill-mode: forwards;
+}
+.tool-hide{
+	animation: tool-hide 0.5s;
+	animation-fill-mode: forwards;
+}
+.msg-move{
+	animation: msg-move 0.5s;
+	animation-fill-mode: forwards;
+}
+.msg-no-move{
+	animation: msg-no-move 0.5s;
+	animation-fill-mode: forwards;
+}
+@keyframes tool-show{
+	from {
+		width: 0px;
+	}
+	to {
+		width: 100px;
+	}
+}
+@keyframes tool-hide{
+	from {
+		width: 100px;
+	}
+	to {
+		width: 0px;
+	}
+}
+
+@keyframes msg-move{
+	from{
+		transform: translateX(0px)
+	}
+	to{
+		transform: translateX(-100px)
+	}
+}
+@keyframes msg-no-move{
+	from{
+		transform: translateX(-100px)
+	}
+	to{
+		transform: translateX(0px)
+	}
+}

@@ -1,0 +1,56 @@
+.qq-show{
+	background: url(http://ugc.qpic.cn/mqq_photo/0/e8880174f550c457cb96932c0d68657af4c1b84301/0);
+	padding-top: 10px;
+	color: #fff;
+	font-size: 30px;
+	padding-left: 10px;
+	height: 180px;
+}
+.qq-show img{
+	width: 40px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	vertical-align: text-bottom;
+}
+.qq-level{
+	font-size: 25px;
+}
+.qq-level .ivu-icon{
+	margin-right: 2px;
+}
+.personal-signal{
+	font-size: 14px;
+}
+.qq-qr{
+	text-align: right;
+	padding-right: 20px;
+}
+.qq-tool{
+	position: absolute;
+	top: 180px;
+	bottom:0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+}
+.qq-tool-list{
+	font-size: 16px;
+}
+.qq-tool-list li{
+	padding-left: 20px;
+	margin-top: 20px;
+}
+.qq-tool-list li .ivu-icon{
+	margin-right: 10px;
+}
+.qq-setting{
+	font-size: 18px;
+	position: absolute;
+	bottom: 0px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	background: #fff;
+}
+.qq-setting span:not(:last-child){
+	margin-right: 20px;
+}
